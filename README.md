@@ -1,4 +1,4 @@
-# Mono Solutions JavaScript Style Guide() {
+# Mono Solutions Vue.js Style Guide() {
 
 <p align="center">
   <img style="max-width: 100px" src="img/logo.png"/>
