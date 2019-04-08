@@ -512,7 +512,7 @@ Managing state on `this.$root` and/or using a [global event bus](https://vuejs.o
 * Whichever testing framework you use, you should be writing tests!
 * Strive to write many small pure functions, and minimize where mutations occur.
 * Be cautious about stubs and mocks - they can make your tests more brittle.
-* We primarily use mjest at Monosolutions.
+* We primarily use jest at Monosolutions.
 * 100% test coverage is a good goal to strive for, even if it’s not always practical to reach it.
 * Whenever you fix a bug, write a regression test. A bug fixed without a regression test is almost certainly going to break again in the future.
 
