@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    // required to lint *.vue files
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        //Vue rules
+        "vue/html-indent": [2, 4],
+        "vue/script-indent": [2, 4, {
+            "baseIndent": 0,
+            "switchCase": 1
+        }],
+        "vue/name-property-casing": [2, "kebab-case"],
+        "vue/max-attributes-per-line": 0
+    }
+}
